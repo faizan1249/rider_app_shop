@@ -10,7 +10,7 @@ import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 import 'package:shopping_rider/singleton/singletonConstants.dart';
-import 'package:flutter_polyline_points/flutter_polyline_points.dart';
+// import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:geolocator/geolocator.dart';
 
 class RiderMapController extends GetxController with StateMixin {
@@ -30,7 +30,7 @@ class RiderMapController extends GetxController with StateMixin {
 // this will hold each polyline coordinate as Lat and Lng pairs
   List<LatLng> polylineCoordinates = [];
 
-  PolylinePoints polylinePoints = PolylinePoints();
+  // PolylinePoints polylinePoints = PolylinePoints();
 
   String googleApiKey = "AIzaSyDewpahXI-I_OIiDCU7KQqsY2uDY-VfDOg";
   List<LatLng> LatLongPoints = [
